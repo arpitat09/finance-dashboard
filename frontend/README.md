@@ -1,16 +1,92 @@
-# React + Vite
+##📊 Finance Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and interactive Finance Dashboard to track income, expenses, savings, and overall financial health.
+This project provides clear insights through visualizations and helps users make better financial decisions.
 
-Currently, two official plugins are available:
+##🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+👉 [https://finance-dashboard-sigma-ruby.vercel.app/]
 
-## React Compiler
+##📌 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+💰 Income & Expense Tracking
+Easily add, edit, and monitor transactions.
+📈 Interactive Charts & Visualizations
+Visual breakdown of spending patterns and financial trends.
+📊 Dashboard Overview
+Summary of total income, expenses, and balance.
+🗂️ Category-wise Analysis
+Track spending across categories like food, rent, travel, etc.
+📅 Time-based Filtering
+View data by day, month, or year.
+📱 Responsive Design
+Works smoothly on desktop and mobile devices.
 
-## Expanding the ESLint configuration
+##🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Frontend: React.js / HTML / CSS / Tailwind (adjust if needed)
+Charts: Chart.js / Recharts
+Backend: (if applicable — Node.js / Express)
+Database: (if applicable — MongoDB / Local Storage / Firebase)
+
+##📂 Project Structure
+
+finance-dashboard/
+│── public/
+│── src/
+│   ├── components/
+│   ├── pages/
+│   ├── assets/
+│   ├── utils/
+│   └── App.js
+│── package.json
+│── README.md
+
+##⚙️ Installation & Setup
+1.Clone the repository:
+git clone https://github.com/arpitat09/finance-dashboard.git
+
+2.Navigate to the project folder:
+cd finance-dashboard
+
+3.Install dependencies:
+npm install
+
+4.Run the app:
+npm start
+
+##📊 Key Functionalities
+
+Track financial transactions in real-time
+Analyze spending habits
+Visualize income vs expenses
+Identify saving opportunities
+
+##🔮 Future Enhancements
+
+🔐 User Authentication
+☁️ Cloud Data Storage
+📊 Advanced Analytics & Predictions
+🤖 AI-based financial insights
+📥 Export reports (PDF/CSV)
+
+##🤝 Contributing
+
+Contributions are welcome!
+1.Fork the repo
+2.Create a new branch
+3.Commit your changes
+4.Open a Pull Request
+
+##📜 License
+
+This project is licensed under the MIT License
+
+##👩‍💻 Author
+
+Arpita
+🔗 GitHub: https://github.com/arpitat09
+
+##⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
