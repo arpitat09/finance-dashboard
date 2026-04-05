@@ -1,13 +1,13 @@
-📊 Finance Dashboard
+## 📊 Finance Dashboard
 
 A modern and interactive Finance Dashboard to track income, expenses, savings, and overall financial health.
 This project provides clear insights through visualizations and helps users make better financial decisions.
 
-🚀 Live Demo
+## 🚀 Live Demo
 
 👉 [https://finance-dashboard-sigma-ruby.vercel.app/](https://finance-dashboard-sigma-ruby.vercel.app/)
 
-📌 Features
+## 📌 Features
 
 💰 Income & Expense Tracking
 Easily add, edit, and monitor transactions.
@@ -22,14 +22,14 @@ View data by day, month, or year.
 📱 Responsive Design
 Works smoothly on desktop and mobile devices.
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 Frontend: React.js / HTML / CSS / Tailwind (adjust if needed)
 Charts: Chart.js / Recharts
 Backend: (if applicable — Node.js / Express)
 Database: (if applicable — MongoDB / Local Storage / Firebase)
 
-📂 Project Structure
+## 📂 Project Structure
 
 finance-dashboard/
 │── public/
@@ -42,7 +42,7 @@ finance-dashboard/
 │── package.json
 │── README.md
 
-⚙️ Installation & Setup
+## ⚙️ Installation & Setup
 1.Clone the repository:
 git clone https://github.com/arpitat09/finance-dashboard.git
 
@@ -55,14 +55,14 @@ npm install
 4.Run the app:
 npm start
 
-📊 Key Functionalities
+## 📊 Key Functionalities
 
 Track financial transactions in real-time
 Analyze spending habits
 Visualize income vs expenses
 Identify saving opportunities
 
-🔮 Future Enhancements
+## 🔮 Future Enhancements
 
 🔐 User Authentication
 ☁️ Cloud Data Storage
@@ -70,7 +70,7 @@ Identify saving opportunities
 🤖 AI-based financial insights
 📥 Export reports (PDF/CSV)
 
-🤝 Contributing
+## 🤝 Contributing
 
 Contributions are welcome!
 1.Fork the repo
@@ -78,15 +78,15 @@ Contributions are welcome!
 3.Commit your changes
 4.Open a Pull Request
 
-📜 License
+## 📜 License
 
 This project is licensed under the MIT License
 
-👩‍💻 Author
+## 👩‍💻 Author
 
 Arpita
 🔗 GitHub: https://github.com/arpitat09
 
-⭐ Support
+## ⭐ Support
 
 If you like this project, give it a ⭐ on GitHub!
