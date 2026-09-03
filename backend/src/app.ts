@@ -19,8 +19,13 @@ app.use(
 );
 
 // CORS
+const frontendUrls = (config.frontendUrl || '')
+  .split(',')
+  .map((u) => u.trim().replace(/\/$/, ''))
+  .filter(Boolean);
+
 const allowedOrigins = [
-  config.frontendUrl,
+  ...frontendUrls,
   'http://localhost:5173',
   'http://localhost:3000',
   'http://127.0.0.1:5173',
@@ -30,10 +35,10 @@ const allowedOrigins = [
 app.use(
   cors({
     origin: (origin, callback) => {
-      if (!origin || allowedOrigins.includes(origin) || config.nodeEnv === 'development') {
+      if (!origin || allowedOrigins.includes(origin) || allowedOrigins.includes('*') || config.nodeEnv === 'development') {
         callback(null, true);
       } else {
-        callback(new Error('Not allowed by CORS'));
+        callback(new Error(`Origin ${origin} not allowed by CORS`));
       }
     },
     credentials: true,

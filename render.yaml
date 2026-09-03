@@ -1,0 +1,31 @@
+services:
+  # 1. FINORA Backend REST API Service
+  - type: web
+    name: finora-backend
+    runtime: node
+    rootDir: backend
+    plan: free
+    region: oregon
+    buildCommand: npm install && npx prisma generate && npm run build
+    startCommand: npx prisma migrate deploy && npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: JWT_SECRET
+        generateValue: true
+      - key: JWT_EXPIRES_IN
+        value: 7d
+      - key: DATABASE_URL
+        fromDatabase:
+          name: finora-postgres
+          property: connectionString
+      - key: FRONTEND_URL
+        value: '*'
+
+databases:
+  # 2. Render Managed PostgreSQL Database
+  - name: finora-postgres
+    plan: free
+    region: oregon
+    databaseName: finora_db
+    user: finora_user
